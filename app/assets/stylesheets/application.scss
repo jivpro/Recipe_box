@@ -13,3 +13,11 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+img.img-recipe{
+  max-width: 200px;
+  height: 200px;
+}
